@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CospaceOnlineAjaxSpring"
+  id="myeclipse.1292324421484"
+  context-root="/CospaceOnlineMysql"
+  j2ee-spec="5.0"
+  archive="CospaceOnlineAjaxSpring.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

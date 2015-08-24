@@ -1,0 +1,24 @@
+@font-face {
+	font-family: บบาวด๓หฮผ๒;
+	src: url(../font/HYDSJ.eot);
+}
+
+@font-face {
+	font-family: บบาวด๓หฮผ๒;
+	src: url(../font/dasongjian.ttf) format("opentype");
+}
+
+
+
+.styleTitle {
+	font-family: "บบาวด๓หฮผ๒";
+	font-size: 28px;
+	color: #024999;
+}
+
+.styleTitleEN {
+	font-family: "Arial";
+	font-weight: normal;
+	font-size: 22px;
+	color: #01A0FC;
+}

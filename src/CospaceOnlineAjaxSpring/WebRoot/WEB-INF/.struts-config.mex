@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/logIn.do" location="1850,650" dimension="183,84" />
+  <StrutsActivity path="/showBlogAjax.do" location="350,50" dimension="229,84" />
+  <StrutsActivity path="/listByCategory.do" location="950,850" dimension="244,84" />
+  <StrutsActivity path="/blogEdit.do" location="350,950" dimension="213,84" />
+  <StrutsActivity path="/blogEditClose.do" location="1250,950" dimension="242,84" />
+  <StrutsActivity path="/blogDel.do" location="50,1050" dimension="196,84" />
+  <StrutsActivity path="/blogUndo.do" location="2150,1450" dimension="205,84" />
+  <StrutsActivity path="/submitBlogEditorBack.do" location="50,650" dimension="244,84" />
+  <StrutsActivity path="/showAbout.do" location="650,1350" dimension="246,84" />
+  <StrutsActivity path="/listAboutMenu.do" location="950,1350" dimension="202,84" />
+  <StrutsActivity path="/showBlogEditor.do" location="650,50" dimension="246,84" />
+  <StrutsActivity path="/listMenu.do" location="950,50" dimension="202,84" />
+  <StrutsActivity path="/showBlogEditorDesign.do" location="50,850" dimension="246,84" />
+  <StrutsActivity path="/listMenuDesign.do" location="1250,150" dimension="202,84" />
+  <StrutsActivity path="/showBlogEditorArchDesign.do" location="1250,1250" dimension="246,84" />
+  <StrutsActivity path="/listMenuArchDesign.do" location="1850,1050" dimension="202,84" />
+  <StrutsActivity path="/showResearch.do" location="1550,250" dimension="246,84" />
+  <StrutsActivity path="/listResearchMenu.do" location="1850,250" dimension="202,84" />
+  <StrutsActivity path="/showWelcome.do" location="2150,750" dimension="246,84" />
+  <StrutsActivity path="/listWelcomeMenu.do" location="2150,1050" dimension="202,84" />
+  <StrutsActivity path="/showLeague.do" location="2150,250" dimension="246,84" />
+  <StrutsActivity path="/listLeagueMenu.do" location="50,350" dimension="202,84" />
+  <StrutsActivity path="/showBlogEditorInteriorDesign.do" location="50,1450" dimension="282,84" />
+  <StrutsActivity path="/listMenuInteriorDesign.do" location="1550,1450" dimension="238,84" />
+  <StrutsActivity path="/uploadClose.do" location="950,1050" dimension="191,84" />
+  <StrutsActivity path="designpage;6" location="350,750" dimension="100,72" />
+  <StrutsActivity path="subblog;6" location="950,350" dimension="100,72" />
+  <StrutsActivity path="error;6" location="1550,1250" dimension="86,72" />
+  <StrutsActivity path="backend;6" location="1850,1350" dimension="86,72" />
+  <StrutsActivity path="cospace;6" location="2150,1250" dimension="90,72" />
+  <StrutsActivity path="/login.jsp" location="1850,950" dimension="76,48" />
+  <StrutsActivity path="/frame.jsp" location="1850,850" dimension="81,48" />
+  <StrutsActivity path="/listblog.jsp" location="650,1150" dimension="89,48" />
+  <StrutsActivity path="/Left.jsp" location="350,1150" dimension="72,48" />
+  <StrutsActivity path="/modifyblog.jsp" location="1250,1150" dimension="107,48" />
+  <StrutsActivity path="/subblog.jsp" location="1550,1150" dimension="91,48" />
+  <StrutsActivity path="/about.jsp" location="50,1350" dimension="80,48" />
+  <StrutsActivity path="/index.jsp" location="350,1250" dimension="79,48" />
+  <StrutsActivity path="/news.jsp" location="50,1250" dimension="78,48" />
+  <StrutsActivity path="/design.jsp" location="1550,1050" dimension="85,48" />
+  <StrutsActivity path="/archdesign.jsp" location="950,1250" dimension="107,48" />
+  <StrutsActivity path="/research.jsp" location="350,550" dimension="96,48" />
+  <StrutsActivity path="/welcomespace.jsp" location="2150,950" dimension="126,48" />
+  <StrutsActivity path="/leagues.jsp" location="1850,550" dimension="91,48" />
+  <StrutsActivity path="/interior.jsp" location="1250,1450" dimension="88,48" />
+  <StrutsActivity path="/uploadsFiles.jsp" location="650,1250" dimension="116,48" />
+  <StrutsActivity path="/Error.jsp" location="1850,1250" dimension="77,48" />
+  <StrutsActivity path="/cospace/listblog.jsp" location="1550,650" dimension="137,48" />
+  <StrutsActivity path="/cospace/Left.jsp" location="1550,750" dimension="120,48" />
+  <StrutsActivity path="/cospace/modifyblog.jsp" location="1550,850" dimension="155,48" />
+  <StrutsActivity path="/cospace/subblog.jsp" location="1550,950" dimension="139,48" />
+  <StrutsActivity path="/cospace/news.jsp" location="1250,550" dimension="126,48" />
+  <StrutsActivity path="/cospace/index.jsp" location="1250,750" dimension="127,48" />
+  <StrutsActivity path="/cospace/design.jsp" location="1250,650" dimension="133,48" />
+  <StrutsActivity path="/cospace/uploadsFiles.jsp" location="650,1050" dimension="164,48" />
+  <StrutsActivity path="/backend/listblog.jsp" location="1250,850" dimension="137,48" />
+  <StrutsActivity path="/backend/Left.jsp" location="650,850" dimension="120,48" />
+  <StrutsActivity path="/backend/modifyblog.jsp" location="650,950" dimension="155,48" />
+  <StrutsActivity path="/backend/subblog.jsp" location="1550,550" dimension="139,48" />
+  <StrutsActivity path="/backend/index.jsp" location="350,650" dimension="127,48" />
+  <StrutsActivity path="/ckeditor/bloglist.jsp" location="650,250" dimension="136,48" />
+  <StrutsActivity path="/ckeditor/subblog.jsp" location="350,250" dimension="138,48" />
+  <StrutsActivity path="/backend/aftersub.jsp" location="650,550" dimension="142,48" />
+  <StrutsActivity path="/backend/showsubblog.jsp" location="950,550" dimension="165,48" />
+  <StrutsActivity path="/frontend/page2/news.jsp" location="950,650" dimension="162,48" />
+  <StrutsActivity path="/frontend/page3/design.jsp" location="950,750" dimension="169,48" />
+  <StrutsActivity path="/frontend/page1/index.jsp" location="650,650" dimension="163,48" />
+  <StrutsActivity path="/implementation/index.jsp" location="950,250" dimension="162,48" />
+  <StrutsActivity path="/ckeditor/aftersub.jsp" location="50,250" dimension="141,48" />
+  <StrutsActivity path="/backedn/mainbackend.jsp" location="350,350" dimension="166,48" />
+  <StrutsActivity path="/backend/mainbackend.jsp" location="650,350" dimension="166,48" />
+  <StrutsActivity path="/backend/fullpage.html" location="650,450" dimension="147,48" />
+  <StrutsActivity path="/ckeditor/fullpage.html" location="50,550" dimension="146,48" />
+  <StrutsActivity path="" location="650,750" dimension="29,48" />
+  <StrutsActivity path="/aoubt.jsp" location="350,1350" dimension="80,48" />
+  <StrutsActivity path="/listByCategory" location="650,1550" dimension="111,48" />
+  <StrutsActivity path="_sample/modifyblog.jsp" location="950,1550" dimension="147,48" />
+  <StrutsActivity path="_sample/subblog.jsp" location="1250,1550" dimension="131,48" />
+  <StrutsActivity path="/_sample/subblog.jsp" location="1850,1550" dimension="137,48" />
+  <StrutsActivity path="_samples/modifyblog.jsp" location="2450,850" dimension="153,48" />
+  <StrutsActivity path="_samples/subblog.jsp" location="2450,950" dimension="137,48" />
+  <StrutsActivity path="/_samples/modifyblog.jsp" location="2450,1050" dimension="159,48" />
+  <StrutsActivity path="/_samples/subblog.jsp" location="2450,1150" dimension="143,48" />
+  <StrutsActivity path="modifyblog.jsp" location="2450,1250" dimension="101,48" />
+  <StrutsActivity path="backup;6" location="2450,1350" dimension="121,72" />
+  <StrutsActivity path="/backuppage.jsp" location="2450,1550" dimension="112,48" />
+  <StrutsActivity path="backup/backuppage.jsp" location="50,1650" dimension="148,48" />
+  <StrutsActivity path="/backup/backuppage.jsp" location="350,1650" dimension="154,48" />
+  <StrutsActivity path="/dobackupDB.do" location="650,1650" dimension="194,84" />
+  <StrutsActivity path="/dorestoreDB.do" location="950,1650" dimension="194,84" />
+  <StrutsTransition id="/uploadClose.do,endOfUpload,/uploadsFiles.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,1092" />
+      <AbsolutePoint location="885,1092" />
+      <AbsolutePoint location="885,1292" />
+      <AbsolutePoint location="766,1292" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listMenuArchDesign.do,listById,/archdesign.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2048,1050" />
+      <AbsolutePoint location="2048,513" />
+      <AbsolutePoint location="831,513" />
+      <AbsolutePoint location="831,1274" />
+      <AbsolutePoint location="950,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listMenuInteriorDesign.do,listById,/interior.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1474" />
+      <AbsolutePoint location="1338,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="designpage;6,null,/design.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="450,813" />
+      <AbsolutePoint location="1780,813" />
+      <AbsolutePoint location="1780,1052" />
+      <AbsolutePoint location="1635,1052" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorDesign.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="291,934" />
+      <AbsolutePoint location="291,1252" />
+      <AbsolutePoint location="350,1252" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="cospace;6,null,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1286" />
+      <AbsolutePoint location="2108,1286" />
+      <AbsolutePoint location="2108,1787" />
+      <AbsolutePoint location="534,1787" />
+      <AbsolutePoint location="534,1256" />
+      <AbsolutePoint location="429,1256" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listAboutMenu.do,listById,/about.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1051,1392" />
+      <AbsolutePoint location="90,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/about.jsp,null,/listAboutMenu.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="130,1374" />
+      <AbsolutePoint location="291,1374" />
+      <AbsolutePoint location="291,1449" />
+      <AbsolutePoint location="1051,1449" />
+      <AbsolutePoint location="1051,1434" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/index.jsp,null,/listMenu.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="389,1298" />
+      <AbsolutePoint location="389,1341" />
+      <AbsolutePoint location="917,1341" />
+      <AbsolutePoint location="917,92" />
+      <AbsolutePoint location="950,92" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="subblog;6,null,/_sample/subblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,386" />
+      <AbsolutePoint location="2471,386" />
+      <AbsolutePoint location="2471,1574" />
+      <AbsolutePoint location="1987,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogDel.do,linkToDel,/listblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="178,1134" />
+      <AbsolutePoint location="178,1213" />
+      <AbsolutePoint location="664,1213" />
+      <AbsolutePoint location="664,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="_sample/subblog.jsp,null,/submitBlogEditorBack.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1315,1598" />
+      <AbsolutePoint location="1315,2225" />
+      <AbsolutePoint location="-547,2225" />
+      <AbsolutePoint location="-547,692" />
+      <AbsolutePoint location="50,692" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showAbout.do,showBlog,/about.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1413" />
+      <AbsolutePoint location="90,1413" />
+      <AbsolutePoint location="90,1398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="backup;6,null,backup/backuppage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2571,1386" />
+      <AbsolutePoint location="2684,1386" />
+      <AbsolutePoint location="2684,1673" />
+      <AbsolutePoint location="198,1673" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listWelcomeMenu.do,listById,/welcomespace.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2213,1050" />
+      <AbsolutePoint location="2213,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="subblog;6,null,_sample/subblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,386" />
+      <AbsolutePoint location="2471,386" />
+      <AbsolutePoint location="2471,1574" />
+      <AbsolutePoint location="1381,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditor.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,122" />
+      <AbsolutePoint location="578,122" />
+      <AbsolutePoint location="578,1274" />
+      <AbsolutePoint location="429,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="subblog;6,null,_samples/subblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,386" />
+      <AbsolutePoint location="2692,386" />
+      <AbsolutePoint location="2692,974" />
+      <AbsolutePoint location="2587,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/subblog.jsp,null,/submitBlogEditorBack.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1641,1174" />
+      <AbsolutePoint location="1720,1174" />
+      <AbsolutePoint location="1720,713" />
+      <AbsolutePoint location="294,713" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leagues.jsp,null,/showLeague.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showAbout.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="859,1434" />
+      <AbsolutePoint location="859,2075" />
+      <AbsolutePoint location="-622,2075" />
+      <AbsolutePoint location="-622,1001" />
+      <AbsolutePoint location="261,1001" />
+      <AbsolutePoint location="261,1282" />
+      <AbsolutePoint location="350,1282" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="subblog;6,null,/_samples/subblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,386" />
+      <AbsolutePoint location="1720,386" />
+      <AbsolutePoint location="1720,1174" />
+      <AbsolutePoint location="2450,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Left.jsp,null,/listByCategory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="422,1174" />
+      <AbsolutePoint location="608,1174" />
+      <AbsolutePoint location="608,913" />
+      <AbsolutePoint location="950,913" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorArchDesign.do,showBlog,/archdesign.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1313" />
+      <AbsolutePoint location="973,1313" />
+      <AbsolutePoint location="973,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listResearchMenu.do,listById,/research.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.jsp,null,/logIn.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1926,974" />
+      <AbsolutePoint location="1946,974" />
+      <AbsolutePoint location="1946,734" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogAjax.do,success,/frame.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1890,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="backup;6,null,/backuppage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2506,1422" />
+      <AbsolutePoint location="2506,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogAjax.do,failure,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1888,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="backup;6,null,/backup/backuppage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1386" />
+      <AbsolutePoint location="2032,1386" />
+      <AbsolutePoint location="2032,2315" />
+      <AbsolutePoint location="427,2315" />
+      <AbsolutePoint location="427,1698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listMenuDesign.do,listById,/design.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1452,222" />
+      <AbsolutePoint location="1507,222" />
+      <AbsolutePoint location="1507,1013" />
+      <AbsolutePoint location="1592,1013" />
+      <AbsolutePoint location="1592,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/news.jsp,null,/showBlogEditor.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="59,1250" />
+      <AbsolutePoint location="59,1213" />
+      <AbsolutePoint location="-175,1213" />
+      <AbsolutePoint location="-175,165" />
+      <AbsolutePoint location="771,165" />
+      <AbsolutePoint location="771,134" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/welcomespace.jsp,null,/showWelcome.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2247,950" />
+      <AbsolutePoint location="2247,834" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorInteriorDesign.do,showBlog,/interior.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="332,1497" />
+      <AbsolutePoint location="1250,1497" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/logIn.do,failure,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1941,692" />
+      <AbsolutePoint location="1888,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listblog.jsp,null,/blogDel.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="724,1150" />
+      <AbsolutePoint location="724,1113" />
+      <AbsolutePoint location="861,1113" />
+      <AbsolutePoint location="861,1313" />
+      <AbsolutePoint location="148,1313" />
+      <AbsolutePoint location="148,1134" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/design.jsp,null,/listMenuArchDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1635,1074" />
+      <AbsolutePoint location="1850,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEdit.do,linkToModify,modifyblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,1034" />
+      <AbsolutePoint location="456,2135" />
+      <AbsolutePoint location="2500,2135" />
+      <AbsolutePoint location="2500,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listMenu.do,listById,/news.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1051,134" />
+      <AbsolutePoint location="1051,195" />
+      <AbsolutePoint location="-100,195" />
+      <AbsolutePoint location="-100,1171" />
+      <AbsolutePoint location="89,1171" />
+      <AbsolutePoint location="89,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dobackupDB.do,goback,/backup/backuppage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1674" />
+      <AbsolutePoint location="504,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interior.jsp,null,/showBlogEditorInteriorDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1294,1498" />
+      <AbsolutePoint location="1294,1515" />
+      <AbsolutePoint location="332,1515" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showLeague.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="389,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEdit.do,linkToModify,/_samples/modifyblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,1034" />
+      <AbsolutePoint location="456,2135" />
+      <AbsolutePoint location="2608,2135" />
+      <AbsolutePoint location="2608,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leagues.jsp,null,/listLeagueMenu.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="subblog;6,null,/subblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,386" />
+      <AbsolutePoint location="1720,386" />
+      <AbsolutePoint location="1720,1174" />
+      <AbsolutePoint location="1641,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/research.jsp,null,/listResearchMenu.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEdit.do,linkToModify,_samples/modifyblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,1034" />
+      <AbsolutePoint location="456,2135" />
+      <AbsolutePoint location="2602,2135" />
+      <AbsolutePoint location="2602,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showWelcome.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2269,834" />
+      <AbsolutePoint location="2269,941" />
+      <AbsolutePoint location="-262,941" />
+      <AbsolutePoint location="-262,1335" />
+      <AbsolutePoint location="367,1335" />
+      <AbsolutePoint location="367,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listblog.jsp,null,/blogUndo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="739,1192" />
+      <AbsolutePoint location="1099,1192" />
+      <AbsolutePoint location="1099,1343" />
+      <AbsolutePoint location="2252,1343" />
+      <AbsolutePoint location="2252,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorDesign.do,showBlog,/design.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,892" />
+      <AbsolutePoint location="-397,892" />
+      <AbsolutePoint location="-397,1643" />
+      <AbsolutePoint location="1511,1643" />
+      <AbsolutePoint location="1511,1074" />
+      <AbsolutePoint location="1550,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorArchDesign.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1373,1250" />
+      <AbsolutePoint location="1373,1235" />
+      <AbsolutePoint location="389,1235" />
+      <AbsolutePoint location="389,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.jsp,null,/showBlogAjax.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1888,974" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEdit.do,linkToModify,_sample/modifyblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,1034" />
+      <AbsolutePoint location="456,2135" />
+      <AbsolutePoint location="1023,2135" />
+      <AbsolutePoint location="1023,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listblog.jsp,null,/blogEdit.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="694,1150" />
+      <AbsolutePoint location="694,1113" />
+      <AbsolutePoint location="486,1113" />
+      <AbsolutePoint location="486,1034" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/backup/backuppage.jsp,null,/dobackupDB.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="457,1698" />
+      <AbsolutePoint location="457,1713" />
+      <AbsolutePoint location="650,1713" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/design.jsp,null,/showBlogEditorDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1592,1098" />
+      <AbsolutePoint location="1592,1113" />
+      <AbsolutePoint location="1209,1113" />
+      <AbsolutePoint location="1209,613" />
+      <AbsolutePoint location="492,613" />
+      <AbsolutePoint location="492,883" />
+      <AbsolutePoint location="296,883" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showLeague.do,showBlog,/leagues.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/design.jsp,null,/listMenuDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1622,1050" />
+      <AbsolutePoint location="1622,1013" />
+      <AbsolutePoint location="1810,1013" />
+      <AbsolutePoint location="1810,192" />
+      <AbsolutePoint location="1452,192" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/archdesign.jsp,null,/showBlogEditorArchDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1057,1274" />
+      <AbsolutePoint location="1250,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/submitBlogEditorBack.do,aftersub,/listblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="294,691" />
+      <AbsolutePoint location="317,691" />
+      <AbsolutePoint location="317,1141" />
+      <AbsolutePoint location="672,1141" />
+      <AbsolutePoint location="672,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showWelcome.do,showBlog,/welcomespace.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2213,834" />
+      <AbsolutePoint location="2213,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEdit.do,linkToModify,/modifyblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,1034" />
+      <AbsolutePoint location="456,1613" />
+      <AbsolutePoint location="1209,1613" />
+      <AbsolutePoint location="1209,1174" />
+      <AbsolutePoint location="1250,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditorInteriorDesign.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="332,1479" />
+      <AbsolutePoint location="486,1479" />
+      <AbsolutePoint location="486,1292" />
+      <AbsolutePoint location="429,1292" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyblog.jsp,null,/blogEditClose.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1303,1150" />
+      <AbsolutePoint location="1303,1034" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/uploadsFiles.jsp,null,/uploadClose.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="746,1250" />
+      <AbsolutePoint location="746,1141" />
+      <AbsolutePoint location="1045,1141" />
+      <AbsolutePoint location="1045,1134" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/backup/backuppage.jsp,null,/dorestoreDB.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="367,1698" />
+      <AbsolutePoint location="367,2405" />
+      <AbsolutePoint location="1077,2405" />
+      <AbsolutePoint location="1077,1734" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="backend;6,null,/frame.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1893,1386" />
+      <AbsolutePoint location="1890,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/research.jsp,null,/showResearch.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dorestoreDB.do,goback,/backup/backuppage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1047,1734" />
+      <AbsolutePoint location="1047,2135" />
+      <AbsolutePoint location="397,2135" />
+      <AbsolutePoint location="397,1698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/about.jsp,null,/showAbout.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1374" />
+      <AbsolutePoint location="-487,1374" />
+      <AbsolutePoint location="-487,1877" />
+      <AbsolutePoint location="578,1877" />
+      <AbsolutePoint location="578,1383" />
+      <AbsolutePoint location="650,1383" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showResearch.do,aftersubmit,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="389,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBlogEditor.do,showBlog,/news.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,92" />
+      <AbsolutePoint location="-25,92" />
+      <AbsolutePoint location="-25,1274" />
+      <AbsolutePoint location="50,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/logIn.do,success,/frame.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1890,734" />
+      <AbsolutePoint location="1890,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interior.jsp,null,/listMenuInteriorDesign.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1294,1474" />
+      <AbsolutePoint location="1669,1492" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogEditClose.do,endOfModify,/listblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1372,1034" />
+      <AbsolutePoint location="1372,1213" />
+      <AbsolutePoint location="694,1213" />
+      <AbsolutePoint location="694,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="error;6,null,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1636,1274" />
+      <AbsolutePoint location="1850,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/blogUndo.do,linkUndo,/listblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2252,1534" />
+      <AbsolutePoint location="2252,1955" />
+      <AbsolutePoint location="630,1955" />
+      <AbsolutePoint location="630,1174" />
+      <AbsolutePoint location="650,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showResearch.do,showBlog,/research.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/welcomespace.jsp,null,/listWelcomeMenu.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2251,998" />
+      <AbsolutePoint location="2251,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listByCategory.do,listBlogs,/listblog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1156,934" />
+      <AbsolutePoint location="1156,1174" />
+      <AbsolutePoint location="739,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/listLeagueMenu.do,listById,/leagues.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

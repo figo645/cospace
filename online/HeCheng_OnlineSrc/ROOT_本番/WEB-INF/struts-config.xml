@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="subBlogForm" type="grass.tree.form.SubBlogForm" ></form-bean>
+		<form-bean name="submenuForm" type="grass.tree.form.SubMenuObj"></form-bean>
+		<form-bean name="blogListForm" type="grass.tree.form.BlogListForm"></form-bean>
+		<form-bean name="uploadForm" type="grass.tree.form.UploadForm"></form-bean>
+		<form-bean name="loginForm" type="grass.tree.form.LoginForm"></form-bean>
+		<form-bean name="systemBackForm" type="grass.tree.form.SystemBackForm"></form-bean>
+		
+	</form-beans>
+	<global-exceptions />
+	<global-forwards>
+	   <forward name="designpage" path="/design.jsp"></forward>
+	   <forward name="subblog" path="/subblog.jsp"></forward>
+	   <forward name="error" path="/Error.jsp"></forward>
+	   <forward name="backend" path="/frame.jsp"></forward>
+	   <forward name="cospace" path="/index.jsp"></forward>
+	   <forward name="backup" path="/backup/backuppage.jsp"></forward>
+	</global-forwards>
+	<action-mappings>
+		<!-- ======LOGIN====== -->
+		<!-- NEW LOGIN ACTION-->
+		<action input="/login.jsp" name="loginForm" path="/logIn"
+			scope="request" type="grass.tree.action.LoginAction"
+			cancellable="true">
+			<forward name="success" path="/frame.jsp"></forward>
+			<forward name="failure" path="/login.jsp"></forward>
+		</action>
+		
+		<!-- AJAX 显示博客信息 ACTION-->
+		<action input="/login.jsp" name="loginForm" path="/showBlogAjax"
+			scope="request" type="grass.tree.action.AjaxShowBlogAction"
+			cancellable="true">
+			<forward name="success" path="/frame.jsp"></forward>
+			<forward name="failure" path="/login.jsp"></forward>
+		</action>
+		
+		
+	
+		<!-- ======BACKEND====== -->
+		<!-- # 备份数据     # -->
+		<action input="/backup/backuppage.jsp" name="systemBackForm" path="/dobackupDB"
+			type="grass.tree.action.BackupAction">
+			<forward name="goback" path="/backup/backuppage.jsp"></forward>
+		</action>
+		
+		<!-- # 还原数据     # -->
+		<action input="/backup/backuppage.jsp" name="systemBackForm" path="/dorestoreDB"
+			type="grass.tree.action.RestoreAction">
+			<forward name="goback" path="/backup/backuppage.jsp"></forward>
+		</action>
+		
+		
+		<!-- NEW LIST BY CATEGORY-->
+		<action input="/Left.jsp" name="blogListForm" path="/listByCategory"
+			scope="request" type="grass.tree.action.ListByCategoryAllAction"
+			cancellable="true">
+			<forward name="listBlogs" path="/listblog.jsp"></forward>
+			
+		</action>
+		
+		<!-- NEW GOTO MODIFY -->
+		<action input="/listblog.jsp" name="subBlogForm" path="/blogEdit"
+			scope="request" type="grass.tree.action.BlogModifyAction"
+			cancellable="true">
+			<forward name="linkToModify" path="/modifyblog.jsp"></forward>
+		</action>
+		
+		<!-- NEW SUBMIT BLOG MODIFY CLOSED #@-->
+		<action input="/modifyblog.jsp" name="subBlogForm" path="/blogEditClose"
+			scope="request" type="grass.tree.action.BlogModifyCloseAction"
+			cancellable="true">
+			<forward name="endOfModify" path="/listblog.jsp"></forward>
+		</action>
+		
+		<!-- NEW GOTO DEL #@-->
+		<action input="/listblog.jsp" name="subBlogForm" path="/blogDel"
+			scope="request" type="grass.tree.action.BlogDelAction"
+			cancellable="true">
+			<forward name="linkToDel" path="/listblog.jsp"></forward>
+		</action>
+		
+		<!-- NEW GOTO UNDO #@-->
+		<action input="/listblog.jsp" name="subBlogForm" path="/blogUndo"
+			scope="request" type="grass.tree.action.BlogUndoAction"
+			cancellable="true">
+			<forward name="linkUndo" path="/listblog.jsp"></forward>
+		</action>
+		
+		<!-- SUBMIT BLOG ADD&MODIFY #@-->
+		<action input="_sample/subblog.jsp" name="subBlogForm" path="/submitBlogEditorBack"
+			scope="request" type="grass.tree.action.SubmitBlogEditorAction"
+			cancellable="true">
+			<forward name="aftersub" path="/listblog.jsp"></forward>
+		</action>
+
+		<!-- ======FRONTEND====== -->
+		<!-- #    关于合城显示             # -->
+		<action input="/about.jsp" name="subBlogForm" path="/showAbout"
+			scope="request" type="grass.tree.action.ShowBlogContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/about.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- # 关于合城左侧菜单     # -->
+		<action input="/about.jsp" path="/listAboutMenu"
+			type="grass.tree.action.ListMenuAction">
+			<forward name="listById" path="/about.jsp"></forward>
+		</action>
+
+		<!-- #    新闻显示             # -->
+		<action input="/news.jsp" name="subBlogForm" path="/showBlogEditor"
+			scope="request" type="grass.tree.action.ShowBlogNewsContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/news.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- # 新闻的左侧菜单     # -->
+		<action input="/index.jsp" path="/listMenu"
+			type="grass.tree.action.ListMenuNewsAction">
+			<forward name="listById" path="/news.jsp"></forward>
+		</action>
+		
+		<!-- #设计博客显示              # -->
+		<action input="/design.jsp" name="subBlogForm" path="/showBlogEditorDesign"
+			scope="request" type="grass.tree.action.ShowBlogContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/design.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- # 设计博客的左侧菜单     # -->
+		<action input="/design.jsp" path="/listMenuDesign"
+			type="grass.tree.action.ListMenuAction">
+			<forward name="listById" path="/design.jsp"></forward>
+		</action>
+		
+		<!-- 公共建筑设计的博客显示 -->
+		<action input="/archdesign.jsp" name="subBlogForm" path="/showBlogEditorArchDesign"
+			scope="request" type="grass.tree.action.ShowBlogArchContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/archdesign.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- 公共建筑设计的菜单 -->
+		<action input="/design.jsp" path="/listMenuArchDesign"
+			type="grass.tree.action.ListMenuArchAction">
+			<forward name="listById" path="/archdesign.jsp"></forward>
+		</action>
+		
+		<!-- #    设计研究显示             # -->
+		<action input="/research.jsp" name="subBlogForm" path="/showResearch"
+			scope="request" type="grass.tree.action.ShowBlogContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/research.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- # 设计研究左侧菜单     # -->
+		<action input="/research.jsp" path="/listResearchMenu"
+			type="grass.tree.action.ListMenuAction">
+			<forward name="listById" path="/research.jsp"></forward>
+		</action>
+		
+		
+		<!-- #    欢迎加盟显示             # -->
+		<action input="/welcomespace.jsp" name="subBlogForm" path="/showWelcome"
+			scope="request" type="grass.tree.action.ShowBlogContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/welcomespace.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- # 欢迎加盟左侧菜单     # -->
+		<action input="/welcomespace.jsp" path="/listWelcomeMenu"
+			type="grass.tree.action.ListMenuAction">
+			<forward name="listById" path="/welcomespace.jsp"></forward>
+		</action>
+		
+		<!-- #    企业联盟显示             # -->
+		<action input="/leagues.jsp" name="subBlogForm" path="/showLeague"
+			scope="request" type="grass.tree.action.ShowBlogContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/leagues.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- #企业联盟左侧菜单     # -->
+		<action input="/leagues.jsp" path="/listLeagueMenu"
+			type="grass.tree.action.ListMenuAction">
+			<forward name="listById" path="/leagues.jsp"></forward>
+		</action>
+		
+		<!-- 室内设计的博客显示 -->
+		<action input="/interior.jsp" name="subBlogForm" path="/showBlogEditorInteriorDesign"
+			scope="request" type="grass.tree.action.ShowBlogInteriorContentAction"
+			cancellable="true">
+			<forward name="showBlog" path="/interior.jsp"></forward>
+			<forward name="aftersubmit" path="/index.jsp"></forward>
+		</action>
+		<!-- 室内设计的菜单 -->
+		<action input="/interior.jsp" path="/listMenuInteriorDesign"
+			type="grass.tree.action.ListMenuInteriorAction">
+			<forward name="listById" path="/interior.jsp"></forward>
+		</action>
+		
+		
+		<!-- ======上传组件====== -->
+		<!-- NEW UPLOAD CLOSED-->
+		<action input="/uploadsFiles.jsp" name="uploadForm" path="/uploadClose"
+			scope="request" type="grass.tree.action.UploadAction"
+			cancellable="true">
+			<forward name="endOfUpload" path="/uploadsFiles.jsp"></forward>
+		</action>
+	</action-mappings>
+	<message-resources parameter="grass.tree.ApplicationResources" />
+</struts-config>
+

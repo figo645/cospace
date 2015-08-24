@@ -1,0 +1,150 @@
+.leftdiv {
+
+	WIDTH: 98%;
+	HEIGHT: 580;
+	OVERFLOW-y: auto;
+	OVERFLOW-x: hidden;
+	scrollbar-face-color: #01A2F2;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: FFFFFF;
+	scrollbar-arrow-color: #FFFFFF;
+}
+
+.rightdiv {
+	align: "right";
+	height: 580;
+	WIDTH: 860px;
+	OVERFLOW-y: auto;
+	OVERFLOW-x: hidden;
+	scrollbar-face-color: #01A2F2;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: FFFFFF;
+	scrollbar-arrow-color: #FFFFFF;
+}
+.righttop{ width:50px; position: absolute; left:935;bottom:0;  z-index:100; }
+body {
+	height: 100%!important;
+	max-height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.content {
+	width: 100%;
+}
+
+.leftcontent {
+	width: 308;
+}
+
+.framewidth {
+	width: 1260;
+}
+
+.leftgray {
+	background-color: #F3F3F3;
+}
+
+.titleleft {
+	font-family: "Arial";
+	font-size: 19px;
+	font-weight: bold;
+	color: #3163A8;
+}
+
+.navifont {
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 14px;
+	color: #1D1D1D;
+	border: #CCCCCC;
+}
+
+.navid_over {
+	text-decoration: none;
+	background-image: url(../images/button02.jpg);
+	font-weight: bold;
+	color: #000000;
+}
+
+.navid_out {
+	text-decoration: none;
+	background-image: url(../images/button01.jpg);
+	font-weight: bold;
+	color: #999999;
+}
+
+.naviback {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #01A2F2;
+}
+
+.navibackfontsize {
+	font-size: 13px;
+}
+
+.navibackd_over {
+	font-family: "Arail";
+	text-decoration: none;
+	font-weight: bold;
+	color: #004454;
+}
+
+.navibackdA_out {
+	font-family: "Arail";
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.navibackdB_out {
+	font-family: "Arail";
+	text-decoration: none;
+	font-weight: bold;
+	color: #747474;
+}
+
+.d_over {
+	font-family: "Arail";
+	font-weight: bold;
+	font-size: 13px;
+	color: #51C2EE;
+}
+
+.d_out {
+	font-family: "Arail";
+	font-weight: normal;
+	font-size: 13px;
+	color: #999999;
+}
+
+
+.leftsubfont{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.bodycontent{
+height:100% !important;
+}
+
+.maincontent{
+float: left;
+position:absolute;
+}
+
+.footerstyle{
+	color:#999999; 
+	font-size: 9px; 
+	font-family: Arial;
+}
